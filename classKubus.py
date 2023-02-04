@@ -18,7 +18,9 @@ class Kubus:
     def kelilingKubus(self):
         return 12 * self.__sisi
 
-k1 = Kubus(10)
-print(k1.kelilingKubus())
 
+class Lingkaran:
+    def __init__(self, jari):
+        self.jari = jari
 
+    
