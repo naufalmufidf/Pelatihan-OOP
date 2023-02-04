@@ -1,5 +1,12 @@
-class Kubus:
+from multipledispatch import dispatch as ds
 
+class Kubus:
+    
+    @ds()
+    def __init__(self) -> None:
+        self.__sisi = 5
+
+    @ds(int)
     def __init__(self, sisi):
         self.__sisi = sisi
 
